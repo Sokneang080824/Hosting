@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@200;400&family=Poppins:wght@200&display=swap');
+*{padding: 0%; margin: 0%; box-sizing: 0%;}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.navbar-container{
+    width: 80%;
+    height: 8vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-left{
+    width: 5%;
+    height: 8vh;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+a{
+    font-size: 16px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    color: black;
+}
+.box-meddle{
+    width: 70%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 50px;
+}
+.box-meddle ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.box-meddle ul li > a{
+   text-decoration: none;
+   padding: 20px 30px;
+   display: block;
+}
+ ul li a:hover{
+    color: brown;
+}
+.box-right{
+    width: 20%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 50px;
+}
+.box-right ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.box-right ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    display: block;
+}
+.items{
+    width: 100px;
+    height: 110px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: -4px;
+    position: absolute;
+    display: none;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+.items ul li >a{
+    margin-left: -15px;
+    margin-top: -6px;
+}
+.dropdown:hover .items{
+    display: block;
+}
